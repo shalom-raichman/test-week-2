@@ -12,3 +12,13 @@ const Mission3 = (matrix) => {
     return matrix.flat()
 }
 
+const Mission5 = (keysArr, valuesArr) => {
+    const shortArrLength = keysArr.length < valuesArr.length ? keysArr.length : valuesArr.length
+    const newObg = {}
+    for (let i = 0; i < shortArrLength; i++) {
+        newObg[keysArr[i]] = valuesArr[i]
+    }
+    return newObg    
+}
+
+

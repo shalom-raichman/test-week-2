@@ -22,3 +22,9 @@ const Mission5 = (keysArr, valuesArr) => {
 }
 
 
+module.exports = {
+    Mission1,
+    Mission2,
+    Mission3,
+    Mission5
+}

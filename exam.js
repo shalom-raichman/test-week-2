@@ -5,9 +5,6 @@ const Mission1 = (arr) => {
 
 const Mission2 = (str) => {
     const wordLength = 4
-    let count = 0
-    const strArr = str.split(" ").filter(str => str.length == wordLength)
-    return strArr.length
+    return str.split(" ").filter(str => str.length == wordLength).length
 }
-
 

@@ -8,3 +8,7 @@ const Mission2 = (str) => {
     return str.split(" ").filter(str => str.length == wordLength).length
 }
 
+const Mission3 = (matrix) => {
+    return matrix.flat()
+}
+
